@@ -107,7 +107,7 @@ h3:after {
 
 /* Paragraphs */
 .container p {
-    max-width: 95ch;
+    max-width: 115ch;
     margin: 0.7rem auto;
     padding: 0 1rem;
     font-size: 1.1rem;
