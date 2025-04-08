@@ -5,14 +5,14 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fff5e0;
+    background-color: #fdf6e3;
 }
 
 .container {
     width: 55%;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #fdf6e3; /* Warmer beige for subtle contrast */
+    background-color: #fff3c9; /* Warmer beige for subtle contrast */
     border-radius: 7px;
 }
 
