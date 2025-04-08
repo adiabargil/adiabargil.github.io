@@ -122,6 +122,56 @@ footer {
     color: #555;
 }
 
+/* Social Buttons Styling */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    color: #2c3e50;
+    padding: 8px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-button i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.linkedin-button {
+    background-color: #0077b5;
+    color: white;
+}
+
+.email-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.social-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.linkedin-button:hover {
+    background-color: #005e93;
+}
+
+.email-button:hover {
+    background-color: #c0392b;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
@@ -129,6 +179,11 @@ footer {
         padding: 0;
     }
 
+    section {
+        margin: 0 auto;
+        padding: 0 ;
+    }
+    
     header h1 {
         font-size: 2rem;
     }
