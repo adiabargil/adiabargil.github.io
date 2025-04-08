@@ -1,0 +1,11 @@
+# Site settings
+title: Adi Abargil - Personal Website
+description: Welcome to my personal website
+theme: minima
+
+# Social links
+github_username: adiabargil
+linkedin_username: https://www.linkedin.com/in/adi-abargil/
+
+# Build settings
+markdown: kramdown
