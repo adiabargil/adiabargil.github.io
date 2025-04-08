@@ -5,14 +5,14 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fdf6e3; /* Soft beige background */
+    background-color: #fff5e0;
 }
 
 .container {
     width: 55%;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #fff5e1; /* Warmer beige for subtle contrast */
+    background-color: #fdf6e3; /* Warmer beige for subtle contrast */
     border-radius: 7px;
 }
 
@@ -57,7 +57,7 @@ main {
 section {
     margin: 2rem auto;
     padding: 0 1.5rem;
-    max-width: 120ch;
+    max-width: 100ch;
 }
 
 section:last-child {
@@ -126,7 +126,7 @@ footer {
 @media (max-width: 768px) {
     .container {
         width: 95%;
-        padding: 5px;
+        padding: 0;
     }
 
     header h1 {
