@@ -1,22 +1,21 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Calibri Light", "Calibri", "Segoe UI", Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
-    text-align: center;
+    background-color: #e6f0f5; /* Soft blue background for a relaxed feel */
 }
 
 .container {
-    width: 66.67%; /* This makes the content take up 2/3 of the page width */
-    margin: 0 auto; /* Center the container */
+    width: 66.67%;
+    margin: 0 auto;
     padding: 20px;
 }
 
 header {
-    background: #333;
+    background: linear-gradient(to right, #2c3e50, #3498db); /* Gradient header */
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -27,6 +26,8 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     padding-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .profile-image {
@@ -37,19 +38,19 @@ header h1 {
     border: 5px solid #fff;
     margin: 15px auto;
     display: block;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 main {
     padding: 1.5rem;
-    background: #fff;
+    background: #f8f9fa; /* Very light gray, not pure white */
     border-radius: 0 0 8px 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 section {
-    margin-bottom: 1.5rem; /* Reduced from 2rem */
+    margin-bottom: 1.5rem;
     padding: 0 1.5rem;
-    text-align: center;
 }
 
 section:last-child {
@@ -57,12 +58,13 @@ section:last-child {
 }
 
 h2 {
-    color: #333;
+    color: #2c3e50;
     font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem; /* Reduced from 1.5rem */
+    margin-bottom: 1rem;
     position: relative;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 
 h2:after {
@@ -70,19 +72,20 @@ h2:after {
     display: block;
     width: 70%;
     height: 2px;
-    background: #333;
+    background: #3498db;
     position: absolute;
     bottom: -10px;
     left: 15%;
 }
 
 h3 {
-    color: #444;
+    color: #2c3e50;
     font-size: 1.5rem;
-    margin-top: 1.5rem; /* Reduced from 2rem */
-    margin-bottom: 0.75rem; /* Reduced from 1rem */
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
     position: relative;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 
 h3:after {
@@ -90,22 +93,23 @@ h3:after {
     display: block;
     width: 50%;
     height: 1px;
-    background: #888;
+    background: #3498db;
     position: absolute;
     bottom: -5px;
     left: 25%;
 }
 
 p {
-    margin-bottom: 0.7rem; /* Reduced from 1rem for less spacing between paragraphs */
+    margin-bottom: 0.7rem;
     font-size: 1.1rem;
+    text-align: justify; /* Changed to justify alignment */
 }
 
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    margin-top: 1.5rem; /* Reduced from 2rem */
-    color: #888;
+    margin-top: 1.5rem;
+    color: #555;
 }
 
 /* Responsive design for smaller screens */
@@ -134,6 +138,6 @@ footer {
     
     p {
         font-size: 1rem;
-        margin-bottom: 0.5rem; /* Even smaller margins on mobile */
+        margin-bottom: 0.5rem;
     }
 }
