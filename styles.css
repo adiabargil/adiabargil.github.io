@@ -2,16 +2,16 @@
 body {
     font-family: "Calibri Light", "Calibri", "Segoe UI", Arial, sans-serif;
     line-height: 1.6;
-    margin: 15;
+    margin: 0;
     padding: 0;
     color: #333;
-    background-color: #e6f0f5; /* Soft blue background for a relaxed feel */
+    background-color: #fdf6e3; /* Soft blue background for a relaxed feel */
 }
 
 .container {
-    width: 45%;
+    width: 55%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 header {
