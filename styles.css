@@ -102,7 +102,7 @@ h3:after {
 }
 
 p {
-    margin-bottom: 0.7rem;
+    margin: 0.7rem 2rem; /* top-bottom, left-right */
     font-size: 1.1rem;
     text-align: justify; /* Changed to justify alignment */
 }
