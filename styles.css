@@ -5,19 +5,20 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #fdf6e3; /* Soft blue background for a relaxed feel */
+    background-color: #fdf6e3; /* Soft beige background */
 }
 
 .container {
     width: 55%;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: #f5e9d9; /* Warmer beige, just a shade darker */
+    background-color: #f5e9d9; /* Warmer beige for subtle contrast */
     border-radius: 8px;
 }
 
+/* Header Section */
 header {
-    background: linear-gradient(to right, #2c3e50, #3498db); /* Gradient header */
+    background: linear-gradient(to right, #2c3e50, #3498db);
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -29,9 +30,9 @@ header h1 {
     font-size: 2.5rem;
     padding-bottom: 15px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    text-align: center;
 }
 
+/* Profile Image */
 .profile-image {
     width: 200px;
     height: 250px;
@@ -41,31 +42,35 @@ header h1 {
     margin: 15px auto;
     display: block;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
+/* Main Content */
 main {
     padding: 1.5rem;
-    background: #fdf6e3; /* Very light gray, not pure white */
+    background: #fdf6e3;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Sections */
 section {
-    margin-bottom: 1.5rem;
+    margin: 2rem auto;
     padding: 0 1.5rem;
+    max-width: 75ch;
 }
 
 section:last-child {
     margin-bottom: 0;
 }
 
+/* Headings */
 h2 {
     color: #2c3e50;
     font-size: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    display: block;
     text-align: center;
 }
 
@@ -86,7 +91,6 @@ h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
     position: relative;
-    display: block;
     text-align: center;
 }
 
@@ -101,12 +105,16 @@ h3:after {
     left: 25%;
 }
 
-p {
-    margin: 0.7rem 2rem; /* top-bottom, left-right */
+/* Paragraphs */
+.container p {
+    max-width: 70ch;
+    margin: 0.7rem auto;
+    padding: 0 1rem;
     font-size: 1.1rem;
-    text-align: justify; /* Changed to justify alignment */
+    text-align: justify;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 1.5rem 0;
@@ -114,32 +122,34 @@ footer {
     color: #555;
 }
 
-/* Responsive design for smaller screens */
+/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         width: 90%;
         padding: 10px;
     }
-    
+
     header h1 {
         font-size: 2rem;
     }
-    
+
     .profile-image {
         width: 150px;
         height: 150px;
+        border-radius: 50%;
     }
-    
+
     h2 {
         font-size: 1.8rem;
     }
-    
+
     h3 {
         font-size: 1.3rem;
     }
-    
-    p {
+
+    .container p {
         font-size: 1rem;
-        margin-bottom: 0.5rem;
+        margin: 0.5rem auto;
+        padding: 0 10px;
     }
 }
